@@ -83,5 +83,3 @@ smm-expert-ai/
 3.  **Publication**: The post and image are automatically published to VK.
 4.  **Statistics**: The application collects statistics (followers, likes, etc.) and displays them.
 
-## License
-This project is distributed under the MIT License.
