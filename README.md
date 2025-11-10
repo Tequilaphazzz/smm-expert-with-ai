@@ -1,18 +1,18 @@
 # SMM Expert with AI
 
-This project is a Python application that automates the work of an SMM specialist using artificial intelligence. The application assists in generating posts, images, scheduling publications, and collecting statistics from social networks like VKontakte.
+This project is a Python application that automates the work of an SMM specialist using artificial intelligence. The application assists in generating posts, images, scheduling publications, and collecting statistics from social networks like VK.
 
 ## Features
 - **Post Generation**: Automatically creates text posts on given topics in a specific style using the OpenAI API.
 - **Image Generation**: Creates images based on the post's context using the OpenAI API (DALL-E).
-- **Auto-Publishing**: Supports scheduling and automatic publishing to VKontakte.
-- **Statistics**: Collects and displays engagement statistics (views, likes, followers, etc.) from VKontakte.
+- **Auto-Publishing**: Supports scheduling and automatic publishing to VK.
+- **Statistics**: Collects and displays engagement statistics (views, likes, followers, etc.) from VK.
 
 ## Technology Stack
 - **Python**: The main programming language.
 - **Flask**: Web framework for creating the application interface.
 - **OpenAI API**: Used for generating text and images.
-- **VK API**: For publishing posts and collecting statistics from VKontakte.
+- **VK API**: For publishing posts and collecting statistics from VK.
 - **SQLAlchemy**: ORM for database operations.
 - **Bootstrap**: Used for styling the interface.
 
@@ -33,7 +33,7 @@ This project is a Python application that automates the work of an SMM specialis
     ```
 
 3.  **Configure environment variables:**
-    Create a `.env` file and add your OpenAI and VKontakte API keys:
+    Create a `.env` file and add your OpenAI and VK API keys:
     ```bash
     OPENAI_API_KEY=<your_openai_api_key>
     VK_API_KEY=<your_vk_api_key>
@@ -48,8 +48,8 @@ This project is a Python application that automates the work of an SMM specialis
 ## Core Modules
 - `generators/text_gen.py`: Text generation via OpenAI.
 - `generators/image_gen.py`: Image generation via OpenAI.
-- `social_publishers/vk_publisher.py`: Works with the VKontakte API for publications.
-- `social_stats/vk_stats.py`: Collects statistics from VKontakte.
+- `social_publishers/vk_publisher.py`: Works with the VK API for publications.
+- `social_stats/vk_stats.py`: Collects statistics from VK.
 
 ## Project Structure
 ```
@@ -80,7 +80,7 @@ smm-expert-ai/
 
 1.  **Post Generation**: The user enters a topic and style; the application generates a post via GPT.
 2.  **Image Creation**: An image description is generated based on the post, which is then created via the OpenAI API.
-3.  **Publication**: The post and image are automatically published to VKontakte.
+3.  **Publication**: The post and image are automatically published to VK.
 4.  **Statistics**: The application collects statistics (followers, likes, etc.) and displays them.
 
 ## License
