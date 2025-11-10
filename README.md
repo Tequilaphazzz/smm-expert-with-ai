@@ -70,7 +70,6 @@ smm-expert-ai/
 │   └── vk_publisher.py
 ├── social_stats/
 │   └── vk_stats.py
-├── config.py
 ├── requirements.txt
 └── README.md
 ```
